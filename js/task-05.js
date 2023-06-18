@@ -11,6 +11,4 @@ function hendlerInputValue(event) {
   const inputValue = event.currentTarget.value.trim();
 
   span.textContent = inputValue ? event.currentTarget.value : "Anonymous";
-
-  console.log(event);
 }
