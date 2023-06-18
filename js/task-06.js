@@ -16,14 +16,10 @@ function handlerValidation(event) {
       input.classList.remove("invalid");
     }
     input.classList.add("valid");
-
-    console.log("true");
   } else {
     if (input.classList.contains("valid")) {
       input.classList.remove("valid");
     }
     input.classList.add("invalid");
-
-    console.log("false");
   }
 }
