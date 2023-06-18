@@ -49,3 +49,7 @@ button {
 #controls {
   margin-bottom: 16px;
 }
+
+.box:not(:last-child) {
+  margin-bottom: 10px;
+}
